@@ -14,6 +14,9 @@ namespace beeTechSolutions_API_.Data
         public DbSet<Laptop> Laptops { get; set; }
         public DbSet<Desktop> Desktops { get; set; }
         public DbSet<Gaming_Chair> Gaming_Chairs{ get; set; }
-        public DbSet<Gaming_Console> Gaming_Consoles { get; set; }
+        public DbSet<Gaming_Console> Gaming_Consoles{ get;set; }
+        public DbSet<GamingConsole> GamingConsoles{ get; set; }
+        public DbSet<Product> Products { get; set; }
+        public DbSet<Order> Orders { get; set; }
     }
 }

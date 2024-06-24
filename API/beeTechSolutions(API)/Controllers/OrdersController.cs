@@ -12,47 +12,47 @@ namespace beeTechSolutions_API_.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class GamingConsolesController : ControllerBase
+    public class OrdersController : ControllerBase
     {
         private readonly DBContext _context;
 
-        public GamingConsolesController(DBContext context)
+        public OrdersController(DBContext context)
         {
             _context = context;
         }
 
-        // GET: api/GamingConsoles1
+        // GET: api/Orders
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<GamingConsole>>> GetgamingConsoles()
+        public async Task<ActionResult<IEnumerable<Order>>> GetOrders()
         {
-            return await _context.GamingConsoles.ToListAsync();
+            return await _context.Orders.ToListAsync();
         }
 
-        // GET: api/GamingConsoles1/5
+        // GET: api/Orders/5
         [HttpGet("{id}")]
-        public async Task<ActionResult<GamingConsole>> GetGamingConsole(int id)
+        public async Task<ActionResult<Order>> GetOrder(int id)
         {
-            var gamingConsole = await _context.GamingConsoles.FindAsync(id);
+            var order = await _context.Orders.FindAsync(id);
 
-            if (gamingConsole == null)
+            if (order == null)
             {
                 return NotFound();
             }
 
-            return gamingConsole;
+            return order;
         }
 
-        // PUT: api/GamingConsoles1/5
+        // PUT: api/Orders/5
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPut("{id}")]
-        public async Task<IActionResult> PutGamingConsole(int id, GamingConsole gamingConsole)
+        public async Task<IActionResult> PutOrder(int id, Order order)
         {
-            if (id != gamingConsole.GamingConsoleId)
+            if (id != order.order_id)
             {
                 return BadRequest();
             }
 
-            _context.Entry(gamingConsole).State = EntityState.Modified;
+            _context.Entry(order).State = EntityState.Modified;
 
             try
             {
@@ -60,7 +60,7 @@ namespace beeTechSolutions_API_.Controllers
             }
             catch (DbUpdateConcurrencyException)
             {
-                if (!GamingConsoleExists(id))
+                if (!OrderExists(id))
                 {
                     return NotFound();
                 }
@@ -73,36 +73,36 @@ namespace beeTechSolutions_API_.Controllers
             return NoContent();
         }
 
-        // POST: api/GamingConsoles1
+        // POST: api/Orders
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPost]
-        public async Task<ActionResult<GamingConsole>> PostGamingConsole(GamingConsole gamingConsole)
+        public async Task<ActionResult<Order>> PostOrder(Order order)
         {
-            _context.GamingConsoles.Add(gamingConsole);
+            _context.Orders.Add(order);
             await _context.SaveChangesAsync();
 
-            return CreatedAtAction("GetGamingConsole", new { id = gamingConsole.GamingConsoleId }, gamingConsole);
+            return CreatedAtAction("GetOrder", new { id = order.order_id }, order);
         }
 
-        // DELETE: api/GamingConsoles1/5
+        // DELETE: api/Orders/5
         [HttpDelete("{id}")]
-        public async Task<IActionResult> DeleteGamingConsole(int id)
+        public async Task<IActionResult> DeleteOrder(int id)
         {
-            var gamingConsole = await _context.GamingConsoles.FindAsync(id);
-            if (gamingConsole == null)
+            var order = await _context.Orders.FindAsync(id);
+            if (order == null)
             {
                 return NotFound();
             }
 
-            _context.GamingConsoles.Remove(gamingConsole);
+            _context.Orders.Remove(order);
             await _context.SaveChangesAsync();
 
             return NoContent();
         }
 
-        private bool GamingConsoleExists(int id)
+        private bool OrderExists(int id)
         {
-            return _context.GamingConsoles.Any(e => e.GamingConsoleId == id);
+            return _context.Orders.Any(e => e.order_id == id);
         }
     }
 }
