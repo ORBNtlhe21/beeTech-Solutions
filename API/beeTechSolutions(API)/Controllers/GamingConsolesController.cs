@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using beeTechSolutions_API_.Data;
 using beeTechSolutions_API_.Models;
@@ -23,16 +18,16 @@ namespace beeTechSolutions_API_.Controllers
 
         // GET: api/GamingConsoles1
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<GamingConsole>>> GetgamingConsoles()
+        public async Task<ActionResult<IEnumerable<Gaming_Console>>> GetgamingConsoles()
         {
-            return await _context.GamingConsoles.ToListAsync();
+            return await _context.Gaming_Console.ToListAsync();
         }
 
         // GET: api/GamingConsoles1/5
         [HttpGet("{id}")]
-        public async Task<ActionResult<GamingConsole>> GetGamingConsole(int id)
+        public async Task<ActionResult<Gaming_Console>> GetGamingConsole(int id)
         {
-            var gamingConsole = await _context.GamingConsoles.FindAsync(id);
+            var gamingConsole = await _context.Gaming_Console.FindAsync(id);
 
             if (gamingConsole == null)
             {
@@ -45,9 +40,9 @@ namespace beeTechSolutions_API_.Controllers
         // PUT: api/GamingConsoles1/5
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPut("{id}")]
-        public async Task<IActionResult> PutGamingConsole(int id, GamingConsole gamingConsole)
+        public async Task<IActionResult> PutGamingConsole(int id, Gaming_Console gamingConsole)
         {
-            if (id != gamingConsole.GamingConsoleId)
+            if (id != gamingConsole.gamingConsole_id)
             {
                 return BadRequest();
             }
@@ -76,25 +71,25 @@ namespace beeTechSolutions_API_.Controllers
         // POST: api/GamingConsoles1
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPost]
-        public async Task<ActionResult<GamingConsole>> PostGamingConsole(GamingConsole gamingConsole)
+        public async Task<ActionResult<Gaming_Console>> PostGamingConsole(Gaming_Console gamingConsole)
         {
-            _context.GamingConsoles.Add(gamingConsole);
+            _context.Gaming_Console.Add(gamingConsole);
             await _context.SaveChangesAsync();
 
-            return CreatedAtAction("GetGamingConsole", new { id = gamingConsole.GamingConsoleId }, gamingConsole);
+            return CreatedAtAction("GetGamingConsole", new { id = gamingConsole.gamingConsole_id }, gamingConsole);
         }
 
         // DELETE: api/GamingConsoles1/5
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteGamingConsole(int id)
         {
-            var gamingConsole = await _context.GamingConsoles.FindAsync(id);
+            var gamingConsole = await _context.Gaming_Console.FindAsync(id);
             if (gamingConsole == null)
             {
                 return NotFound();
             }
 
-            _context.GamingConsoles.Remove(gamingConsole);
+            _context.Gaming_Console.Remove(gamingConsole);
             await _context.SaveChangesAsync();
 
             return NoContent();
@@ -102,7 +97,7 @@ namespace beeTechSolutions_API_.Controllers
 
         private bool GamingConsoleExists(int id)
         {
-            return _context.GamingConsoles.Any(e => e.GamingConsoleId == id);
+            return _context.Gaming_Console.Any(e => e.gamingConsole_id == id);
         }
     }
 }

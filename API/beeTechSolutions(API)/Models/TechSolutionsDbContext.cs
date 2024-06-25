@@ -15,26 +15,26 @@ public partial class TechSolutionsDbContext : DbContext
     {
     }
 
-    public virtual DbSet<GamingConsole> GamingConsoles { get; set; }
+    public virtual DbSet<Gaming_Console> GamingConsoles { get; set; }
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
 #warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see https://go.microsoft.com/fwlink/?LinkId=723263.
-        => optionsBuilder.UseSqlServer("Server=tcp:beetechsolutions.database.windows.net,1433;Initial Catalog=techSolutionsDb;Persist Security Info=False;User ID=oarabile;Password=27388#Orb;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;");
+        => optionsBuilder.UseSqlServer("DefaultConnection");
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
-        modelBuilder.Entity<GamingConsole>(entity =>
+        modelBuilder.Entity<Gaming_Console>(entity =>
         {
-            entity.HasKey(e => e.GamingConsoleId).HasName("PK__Gaming_C__E27BE6B172E934EC");
+            entity.HasKey(e => e.gamingConsole_id).HasName("PK__Gaming_C__E27BE6B172E934EC");
 
-            entity.ToTable("Gaming_Console");
+            entity.ToTable("GamingConsole");
 
-            entity.Property(e => e.GamingConsoleId).HasColumnName("gamingConsole_id");
-            entity.Property(e => e.GamingConsoleBrand)
+            entity.Property(e => e.gamingConsole_id).HasColumnName("gamingConsole_id");
+            entity.Property(e => e.gamingConsoleBrand)
                 .HasMaxLength(15)
                 .IsUnicode(false)
                 .HasColumnName("gamingConsoleBrand");
-            entity.Property(e => e.Price)
+            entity.Property(e => e.price)
                 .HasColumnType("decimal(10, 2)")
                 .HasColumnName("price");
         });

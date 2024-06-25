@@ -10,7 +10,6 @@ namespace beeTechSolutions_API_.Models
         [Key]
         public int customer_id { get; set; }    
         public string? firstName { get; set; }
-
         public string lastName { get; set; } = string.Empty;
         public string email { get; set; } = string.Empty;
         public string? phoneNumber { get; set; }
