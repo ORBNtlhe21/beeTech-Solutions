@@ -3,12 +3,24 @@
   "WorkspaceRootPath": "C:\\#Oarabile\\Visual Studios\\beeTech-Solutions\\API\\beeTechSolutions(API)\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{42577317-0FA3-4411-B03C-AA649A859A14}|beeTechSolutions(API).csproj|c:\\#oarabile\\visual studios\\beetech-solutions\\api\\beetechsolutions(api)\\models\\techsolutionsdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{42577317-0FA3-4411-B03C-AA649A859A14}|beeTechSolutions(API).csproj|solutionrelative:models\\techsolutionsdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{42577317-0FA3-4411-B03C-AA649A859A14}|beeTechSolutions(API).csproj|c:\\#oarabile\\visual studios\\beetech-solutions\\api\\beetechsolutions(api)\\models\\gaming_chair.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{42577317-0FA3-4411-B03C-AA649A859A14}|beeTechSolutions(API).csproj|solutionrelative:models\\gaming_chair.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42577317-0FA3-4411-B03C-AA649A859A14}|beeTechSolutions(API).csproj|c:\\#oarabile\\visual studios\\beetech-solutions\\api\\beetechsolutions(api)\\models\\gaming_console.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42577317-0FA3-4411-B03C-AA649A859A14}|beeTechSolutions(API).csproj|solutionrelative:models\\gaming_console.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42577317-0FA3-4411-B03C-AA649A859A14}|beeTechSolutions(API).csproj|c:\\#oarabile\\visual studios\\beetech-solutions\\api\\beetechsolutions(api)\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42577317-0FA3-4411-B03C-AA649A859A14}|beeTechSolutions(API).csproj|solutionrelative:models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42577317-0FA3-4411-B03C-AA649A859A14}|beeTechSolutions(API).csproj|c:\\#oarabile\\visual studios\\beetech-solutions\\api\\beetechsolutions(api)\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42577317-0FA3-4411-B03C-AA649A859A14}|beeTechSolutions(API).csproj|solutionrelative:models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42577317-0FA3-4411-B03C-AA649A859A14}|beeTechSolutions(API).csproj|c:\\#oarabile\\visual studios\\beetech-solutions\\api\\beetechsolutions(api)\\models\\techsolutionsdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42577317-0FA3-4411-B03C-AA649A859A14}|beeTechSolutions(API).csproj|solutionrelative:models\\techsolutionsdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{42577317-0FA3-4411-B03C-AA649A859A14}|beeTechSolutions(API).csproj|c:\\#oarabile\\visual studios\\beetech-solutions\\api\\beetechsolutions(api)\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -21,10 +33,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{42577317-0FA3-4411-B03C-AA649A859A14}|beeTechSolutions(API).csproj|c:\\#oarabile\\visual studios\\beetech-solutions\\api\\beetechsolutions(api)\\controllers\\gamingconsolescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{42577317-0FA3-4411-B03C-AA649A859A14}|beeTechSolutions(API).csproj|solutionrelative:controllers\\gamingconsolescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{42577317-0FA3-4411-B03C-AA649A859A14}|beeTechSolutions(API).csproj|c:\\#oarabile\\visual studios\\beetech-solutions\\api\\beetechsolutions(api)\\models\\gaming_console.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{42577317-0FA3-4411-B03C-AA649A859A14}|beeTechSolutions(API).csproj|solutionrelative:models\\gaming_console.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{42577317-0FA3-4411-B03C-AA649A859A14}|beeTechSolutions(API).csproj|c:\\#oarabile\\visual studios\\beetech-solutions\\api\\beetechsolutions(api)\\controllers\\gamingchairscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -46,7 +54,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
@@ -62,7 +70,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\#Oarabile\\Visual Studios\\beeTech-Solutions\\API\\beeTechSolutions(API)\\Models\\Order.cs",
+              "RelativeDocumentMoniker": "Models\\Order.cs",
+              "ToolTip": "C:\\#Oarabile\\Visual Studios\\beeTech-Solutions\\API\\beeTechSolutions(API)\\Models\\Order.cs",
+              "RelativeToolTip": "Models\\Order.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-25T20:59:05.646Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Gaming_Console.cs",
               "DocumentMoniker": "C:\\#Oarabile\\Visual Studios\\beeTech-Solutions\\API\\beeTechSolutions(API)\\Models\\Gaming_Console.cs",
               "RelativeDocumentMoniker": "Models\\Gaming_Console.cs",
@@ -75,20 +96,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "TechSolutionsDbContext.cs",
               "DocumentMoniker": "C:\\#Oarabile\\Visual Studios\\beeTech-Solutions\\API\\beeTechSolutions(API)\\Models\\TechSolutionsDbContext.cs",
               "RelativeDocumentMoniker": "Models\\TechSolutionsDbContext.cs",
               "ToolTip": "C:\\#Oarabile\\Visual Studios\\beeTech-Solutions\\API\\beeTechSolutions(API)\\Models\\TechSolutionsDbContext.cs",
               "RelativeToolTip": "Models\\TechSolutionsDbContext.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAQwCcAAAALAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAC4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-24T21:01:10.689Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "GamingConsolesController.cs",
               "DocumentMoniker": "C:\\#Oarabile\\Visual Studios\\beeTech-Solutions\\API\\beeTechSolutions(API)\\Controllers\\GamingConsolesController.cs",
               "RelativeDocumentMoniker": "Controllers\\GamingConsolesController.cs",
@@ -96,12 +117,11 @@
               "RelativeToolTip": "Controllers\\GamingConsolesController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAGMAAABGAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-24T21:38:51.485Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-24T21:38:51.485Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "DBContext.cs",
               "DocumentMoniker": "C:\\#Oarabile\\Visual Studios\\beeTech-Solutions\\API\\beeTechSolutions(API)\\Data\\DBContext.cs",
               "RelativeDocumentMoniker": "Data\\DBContext.cs",
@@ -109,25 +129,11 @@
               "RelativeToolTip": "Data\\DBContext.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAqwBUAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-22T23:12:15.272Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-22T23:12:15.272Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\#Oarabile\\Visual Studios\\beeTech-Solutions\\API\\beeTechSolutions(API)\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\#Oarabile\\Visual Studios\\beeTech-Solutions\\API\\beeTechSolutions(API)\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-22T23:38:31.105Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Gaming_Chair.cs",
               "DocumentMoniker": "C:\\#Oarabile\\Visual Studios\\beeTech-Solutions\\API\\beeTechSolutions(API)\\Models\\Gaming_Chair.cs",
               "RelativeDocumentMoniker": "Models\\Gaming_Chair.cs",
@@ -140,7 +146,32 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 3,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\#Oarabile\\Visual Studios\\beeTech-Solutions\\API\\beeTechSolutions(API)\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "Models\\Product.cs",
+              "ToolTip": "C:\\#Oarabile\\Visual Studios\\beeTech-Solutions\\API\\beeTechSolutions(API)\\Models\\Product.cs",
+              "RelativeToolTip": "Models\\Product.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-25T21:00:36.82Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\#Oarabile\\Visual Studios\\beeTech-Solutions\\API\\beeTechSolutions(API)\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\#Oarabile\\Visual Studios\\beeTech-Solutions\\API\\beeTechSolutions(API)\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-22T23:38:31.105Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "GamingChairsController.cs",
               "DocumentMoniker": "C:\\#Oarabile\\Visual Studios\\beeTech-Solutions\\API\\beeTechSolutions(API)\\Controllers\\GamingChairsController.cs",
               "RelativeDocumentMoniker": "Controllers\\GamingChairsController.cs",
@@ -152,7 +183,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "CustomersController.cs",
               "DocumentMoniker": "C:\\#Oarabile\\Visual Studios\\beeTech-Solutions\\API\\beeTechSolutions(API)\\Controllers\\CustomersController.cs",
               "RelativeDocumentMoniker": "Controllers\\CustomersController.cs",
@@ -164,7 +195,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "DesktopsController.cs",
               "DocumentMoniker": "C:\\#Oarabile\\Visual Studios\\beeTech-Solutions\\API\\beeTechSolutions(API)\\Controllers\\DesktopsController.cs",
               "RelativeDocumentMoniker": "Controllers\\DesktopsController.cs",

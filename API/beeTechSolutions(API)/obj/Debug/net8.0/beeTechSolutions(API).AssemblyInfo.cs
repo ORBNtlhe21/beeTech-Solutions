@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("beeTechSolutions(API)")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+df4612eb8af3e53c2d6f27b085e7ed26785c38eb")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5d251546ae4c0e143e4f6c97d9852b428b25198c")]
 [assembly: System.Reflection.AssemblyProductAttribute("beeTechSolutions(API)")]
 [assembly: System.Reflection.AssemblyTitleAttribute("beeTechSolutions(API)")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

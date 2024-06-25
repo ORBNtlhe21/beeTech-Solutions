@@ -21,5 +21,5 @@ public class Product
 
     public int? gamingConsole_id { get; set; }
 
-    public virtual ICollection<Order> Orders { get; set; } = new List<Order>();
+    //public virtual ICollection<Order> Orders { get; set; } = new List<Order>();
 }
